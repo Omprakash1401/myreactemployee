@@ -5,6 +5,7 @@ import FormHandling from "./components/FormHandling";
 import ToDo from "./components/ToDo";
 import { Route, Routes } from "react-router-dom";
 import Menu from "./components/Menu";
+import Home from "./components/Home";
 
 function App() {
   // let [counter, setCounter] = useState(0);
@@ -34,7 +35,10 @@ function App() {
       {/* <MyName></MyName> */}
 
       <Routes>
+
+        <Route path="/" element={< Menu />}></Route>
         <Route path="/formhandling" element={<FormHandling />}></Route>
+        
         <Route path="/todo" element={<ToDo />}></Route>
       </Routes>
 

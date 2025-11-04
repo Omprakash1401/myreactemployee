@@ -1,11 +1,16 @@
+import { Link } from "react-router-dom";
+
 function Menu(){
     return(
         <div>
             
-            {/* <a href="/myname"> MyName</a> */}
+           
 
-            <a href="/formhandling"> Form Handling</a> |{" "}
-            <a href="/todo"> To Do</a>
+            <Link to={"/"}> Home </Link>
+
+            <Link to={"/todo"}> ToDo</Link>
+            
+            <Link to={"/formhandling"}> FormHandling</Link>
         </div>
     );
 }
