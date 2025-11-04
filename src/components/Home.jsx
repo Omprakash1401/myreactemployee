@@ -6,6 +6,7 @@ function Home(){
             
            
         <h1>This is Home Page</h1>
+        <h3> Welcome to home page </h3>
             
 
              

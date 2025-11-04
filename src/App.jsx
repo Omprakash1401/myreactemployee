@@ -36,7 +36,7 @@ function App() {
 
       <Routes>
 
-        <Route path="/" element={< Menu />}></Route>
+        <Route path="/" element={< Home />}></Route>
         <Route path="/formhandling" element={<FormHandling />}></Route>
         
         <Route path="/todo" element={<ToDo />}></Route>
